@@ -143,6 +143,7 @@ Image reconstruction quality is measured using **MSE** (lower is better) and **M
 - **Loss Function Exploration** — Combining MSE + MS-SSIM + L1 loss for smoother MAE Decoder outputs
 - **Alternative Clustering Techniques** — Spectral Clustering or Deep Embedded Clustering (DEC)
 - **State Space Models (SSM)** — Exploring Mamba architecture variants for feature extraction or image reconstruction
+- **Single Decoder for both tasks** — Combination both approaches can be implemented so that reconstruction and clustering can be done more precisely.
 
 ---
 
